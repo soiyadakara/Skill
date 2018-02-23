@@ -1,5 +1,6 @@
 ;; inputSVG.il
 ;;   Create: Jan/20/2017
+:: The file "svg2polygon.pl" shuld be placed in the directory of PATH.
 
 procedure( inputSVG( svgfile )
 	sprintf(cmd "svg2polygon.pl %s > pointlist" svgfile)
